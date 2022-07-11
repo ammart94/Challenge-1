@@ -1,0 +1,210 @@
+/* universal selector setting all elements to  have zero margins, zero padding, making them all look the same in the browsers*/
+* {
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0;
+}
+/* adding the same background-color to the whole body */
+body {
+    background-color: #d9dcd6;
+}
+/* adding styling to the header element  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* adding styling to h1 creating a block element box with a font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* adding a different color to seo in Horiseo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* adding padding and margin  and a font-family, and having to the right side of the header */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* list style type that is none so nothing is being done to the element */
+.header nav ul {
+    list-style-type:none;
+}
+/* the list is in a block element box, due the display inline-block */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* adding styling to the links in the list of nav */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* adding a font size to all of the paragraphs on the document */
+p {
+    font-size: 16px;
+}
+/* adding a image to the background, with height and width, cover scales the image to the smallest possible size to the container */
+/* background-position keeping the image in the center of the contanier  */
+ .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* adding the inline-block element to contain the information on section containing all the h2 */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* margin and padding being added with height and font family, with color the text and background color */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* the image for online reputation management is on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* margin and padding being added with height and font family, with color the text and background color */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* the image for serach engine optimization and socail media marketing is on the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* margin and padding being added with height and font family, with color the text and background color */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* the image for socail media marketing is on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* max height set the maximum height of an element and can not becoming larger then the value specified */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* max height set the maximum height of an element and can not becoming larger then the value specified */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* max height set the maximum height of an element and can not becoming larger then the value specified */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* marging bottom is being added to h2 with a font size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* marging bottom is being added to h2 with a font size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* marging bottom is being added to h2 with a font size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* it is having going to right side of the page, with a certain width and height, also with a font family and background color */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* giving the text the color and margin bottom to give space to its neighbors  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* giving the text the color and margin bottom to give space to its neighbors  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* giving the text the color and margin bottom to give space to its neighbors  */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* margin bottom has been added, also with text algin to keep the text center of the border box */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* margin bottom has been added, also with text algin to keep the text center of the border box */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* margin bottom has been added, also with text algin to keep the text center of the border box */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* margin is place around the block to give with neighboring elements and set to a max-width that it can not exceed */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* margin is place around the block to give with neighboring elements and set to a max-width that it can not exceed */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* margin is place around the block to give with neighboring elements and set to a max-width that it can not exceed */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* padding being added to have space and the bottom, with a font family and having all text be center */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* font size being added to h2 */
+.footer h2 {
+    font-size: 20px;
+}
